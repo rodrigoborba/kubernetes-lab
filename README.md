@@ -1,2 +1,2 @@
 # kubernetes-lab
-Running a springboot project on Kubernetes
+Running a springboot app with mongodb database on Kubernetes
