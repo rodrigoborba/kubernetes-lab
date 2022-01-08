@@ -6,6 +6,7 @@ metadata:
   name: database-deployment
   labels:
     app: database
+  namespace: development
 
 spec:
   template:

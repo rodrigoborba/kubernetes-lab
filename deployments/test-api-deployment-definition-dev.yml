@@ -6,6 +6,7 @@ metadata:
   name: test-api-deployment
   labels: 
     app: test-api
+  namespace: development
 
 spec:
   template:
@@ -21,7 +22,7 @@ spec:
             - name: MONGODB_SERVER
               value: database-service
 
-  replicas: 5 
+  replicas: 2 
   selector:
     matchLabels:
       app: test-api
